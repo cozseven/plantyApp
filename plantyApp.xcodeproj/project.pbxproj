@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		885A4E4C2B2DFCE800033B10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A4E4B2B2DFCE800033B10 /* AppDelegate.swift */; };
-		885A4E4E2B2DFCE800033B10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A4E4D2B2DFCE800033B10 /* SceneDelegate.swift */; };
-		885A4E502B2DFCE800033B10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A4E4F2B2DFCE800033B10 /* ViewController.swift */; };
 		885A4E532B2DFCE800033B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885A4E512B2DFCE800033B10 /* Main.storyboard */; };
 		885A4E552B2DFCE900033B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885A4E542B2DFCE900033B10 /* Assets.xcassets */; };
 		885A4E582B2DFCE900033B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885A4E562B2DFCE900033B10 /* LaunchScreen.storyboard */; };
 		885A4E632B2DFCE900033B10 /* plantyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A4E622B2DFCE900033B10 /* plantyAppTests.swift */; };
 		885A4E6D2B2DFCE900033B10 /* plantyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A4E6C2B2DFCE900033B10 /* plantyAppUITests.swift */; };
 		885A4E6F2B2DFCE900033B10 /* plantyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A4E6E2B2DFCE900033B10 /* plantyAppUITestsLaunchTests.swift */; };
+		885A4E7D2B2DFEFA00033B10 /* PlantTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A4E7C2B2DFEFA00033B10 /* PlantTabBarViewController.swift */; };
+		885A4E812B2DFF7900033B10 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A4E802B2DFF7900033B10 /* EmptyViewController.swift */; };
+		885A4E842B2E00A000033B10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A4E832B2E00A000033B10 /* HomeViewController.swift */; };
+		885A4E862B2E00A500033B10 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A4E852B2E00A500033B10 /* HomeViewModel.swift */; };
+		885A4E8B2B2E03D000033B10 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A4E8A2B2E03D000033B10 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,6 @@
 /* Begin PBXFileReference section */
 		885A4E482B2DFCE800033B10 /* plantyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plantyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		885A4E4B2B2DFCE800033B10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		885A4E4D2B2DFCE800033B10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		885A4E4F2B2DFCE800033B10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		885A4E522B2DFCE800033B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		885A4E542B2DFCE900033B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		885A4E572B2DFCE900033B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,11 @@
 		885A4E682B2DFCE900033B10 /* plantyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plantyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		885A4E6C2B2DFCE900033B10 /* plantyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantyAppUITests.swift; sourceTree = "<group>"; };
 		885A4E6E2B2DFCE900033B10 /* plantyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		885A4E7C2B2DFEFA00033B10 /* PlantTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTabBarViewController.swift; sourceTree = "<group>"; };
+		885A4E802B2DFF7900033B10 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		885A4E832B2E00A000033B10 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		885A4E852B2E00A500033B10 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		885A4E8A2B2E03D000033B10 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +105,12 @@
 		885A4E4A2B2DFCE800033B10 /* plantyApp */ = {
 			isa = PBXGroup;
 			children = (
-				885A4E4B2B2DFCE800033B10 /* AppDelegate.swift */,
-				885A4E4D2B2DFCE800033B10 /* SceneDelegate.swift */,
-				885A4E4F2B2DFCE800033B10 /* ViewController.swift */,
+				885A4E892B2E03C500033B10 /* Extensions */,
+				885A4E882B2E02BA00033B10 /* Assets */,
+				885A4E872B2E02AD00033B10 /* AppDelegate */,
+				885A4E7B2B2DFEE600033B10 /* Tabbar */,
+				885A4E822B2E009600033B10 /* Home */,
 				885A4E512B2DFCE800033B10 /* Main.storyboard */,
-				885A4E542B2DFCE900033B10 /* Assets.xcassets */,
 				885A4E562B2DFCE900033B10 /* LaunchScreen.storyboard */,
 				885A4E592B2DFCE900033B10 /* Info.plist */,
 			);
@@ -125,6 +132,48 @@
 				885A4E6E2B2DFCE900033B10 /* plantyAppUITestsLaunchTests.swift */,
 			);
 			path = plantyAppUITests;
+			sourceTree = "<group>";
+		};
+		885A4E7B2B2DFEE600033B10 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				885A4E7C2B2DFEFA00033B10 /* PlantTabBarViewController.swift */,
+				885A4E802B2DFF7900033B10 /* EmptyViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		885A4E822B2E009600033B10 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				885A4E832B2E00A000033B10 /* HomeViewController.swift */,
+				885A4E852B2E00A500033B10 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		885A4E872B2E02AD00033B10 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				885A4E4B2B2DFCE800033B10 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		885A4E882B2E02BA00033B10 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				885A4E542B2DFCE900033B10 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		885A4E892B2E03C500033B10 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				885A4E8A2B2E03D000033B10 /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885A4E502B2DFCE800033B10 /* ViewController.swift in Sources */,
+				885A4E842B2E00A000033B10 /* HomeViewController.swift in Sources */,
+				885A4E8B2B2E03D000033B10 /* UIImage+Extension.swift in Sources */,
+				885A4E862B2E00A500033B10 /* HomeViewModel.swift in Sources */,
+				885A4E812B2DFF7900033B10 /* EmptyViewController.swift in Sources */,
 				885A4E4C2B2DFCE800033B10 /* AppDelegate.swift in Sources */,
-				885A4E4E2B2DFCE800033B10 /* SceneDelegate.swift in Sources */,
+				885A4E7D2B2DFEFA00033B10 /* PlantTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -456,9 +508,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = plantyApp.plantyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -483,9 +538,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = plantyApp.plantyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
