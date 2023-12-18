@@ -1,13 +1,14 @@
 //
-//  HomeViewController.swift
+//  EmptyViewController.swift
 //  plantyApp
 //
-//  Created by Can Özseven on 16.12.2023.
+//  Created by Can Özseven on 17.12.2023.
 //
 
+import Foundation
 import UIKit
 
-final class HomeViewController: UIViewController {
+final class EmptyViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

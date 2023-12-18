@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  plantyApp
 //
-//  Created by Can Özseven on 16.12.2023.
+//  Created by Can Özseven on 17.12.2023.
 //
 
 import UIKit
@@ -16,8 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let bounds = UIScreen.main.bounds
         self.window = UIWindow(frame: bounds)
-        let viewController = PlantTabBarViewController()
-        self.window?.rootViewController = viewController
+        let alreadySeen = UserDefaults.standard.bool(forKey: "Seen")
+        if alreadySeen {
+            let plantTabBarViewController = PlantTabBarViewController()
+            plantTabBarViewController.modalPresentationStyle = .fullScreen
+            self.window?.rootViewController = plantTabBarViewController
+        } else {
+            let viewController = OnboardingViewController()
+            self.window?.rootViewController = viewController
+        }
         window?.makeKeyAndVisible()
         return true
     }

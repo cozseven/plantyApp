@@ -2,7 +2,7 @@
 //  PlantTabBarViewController.swift
 //  plantyApp
 //
-//  Created by Can Özseven on 16.12.2023.
+//  Created by Can Özseven on 17.12.2023.
 //
 
 import Foundation
@@ -31,15 +31,17 @@ extension PlantTabBarViewController {
 
     private func configureTabBar() {
         delegate = self
-        tabBar.barTintColor = .white
-        tabBar.unselectedItemTintColor = .lightText
-        tabBar.tintColor = .white
-        tabBar.backgroundColor = .blue
+        tabBar.backgroundColor = .white
+        tabBar.itemPositioning = .centered
+        tabBar.tintColor = UIColor(red: 0.16, green: 0.69, blue: 0.43, alpha: 1)
         middleButton.frame.size = CGSize(width: 64, height: 64)
-        middleButton.backgroundColor = .blue
+        middleButton.backgroundColor = UIColor(red: 0.16, green: 0.69, blue: 0.43, alpha: 1)
         middleButton.layer.cornerRadius = 32
         middleButton.layer.masksToBounds = true
-        middleButton.center = CGPoint(x: tabBar.frame.width / 2, y: -15)
+        middleButton.layer.borderWidth = 4
+        middleButton.layer.borderColor = UIColor(red: 0.16, green: 0.69, blue: 0.43, alpha: 0.5).cgColor
+        middleButton.center = CGPoint(x: tabBar.frame.width / 2 , y: 5)
+        middleButton.setImage(UIImage(named: "camera"), for: .normal)
         tabBar.addSubview(middleButton)
     }
 
